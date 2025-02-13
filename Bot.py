@@ -160,4 +160,4 @@ if __name__ == "__main__":
     init_db()  # ساخت دیتابیس در صورت نیاز
     bot.remove_webhook()
     bot.set_webhook(url=WEBHOOK_URL)
-    app.run(host="0.0.0.0", port=5000)
+    app.run(host="0.0.0.0", port=10000)
